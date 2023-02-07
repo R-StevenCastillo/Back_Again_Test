@@ -13,10 +13,33 @@
 
     <form>
         <label>Dollars? $</label>
-        <input type="number" step="any" id="dollar" name="dollar" placeholder="10.0"><br><br>
-        <button>Make a cent</button> <br><br>
-        <label>Cents = ¢</label>
-        <input type="number" step="any" id="cents" name="cents"> <br><br>
+        <input type="number" step="0.01" id="dollar" placeholder="10.0"><br><br>
+        <input type="button" onclick="getVal()" value="Take your cents"> <br><br>
+        <div class="parent">
+            <div class="child inline-block"><label>You have </label></div>
+            <div class="child inline-block"><p id="cents">0.00</p></div>
+            <div class="child inline-block"><label> cents</label></div>
+        </div>
+        <div class="parent">
+            <div class="child inline-block"><label>You have </label></div>
+            <div class="child inline-block"><p id="pennies">0.00</p></div>
+            <div class="child inline-block"><label> pennies</label></div>
+        </div>
+        <div class="parent">
+            <div class="child inline-block"><label>You have </label></div>
+            <div class="child inline-block"><p id="nickel">0.00</p></div>
+            <div class="child inline-block"><label> nickels</label></div>
+        </div>
+        <div class="parent">
+            <div class="child inline-block"><label>You have </label></div>
+            <div class="child inline-block"><p id="dime">0.00</p></div>
+            <div class="child inline-block"><label> dimes</label></div>
+        </div>
+        <div class="parent">
+            <div class="child inline-block"><label>You have </label></div>
+            <div class="child inline-block"><p id="quarter">0.00</p></div>
+            <div class="child inline-block"><label> quarters</label></div>
+        </div>
         <script src="main.js"></script>
     </form>
 </body>
