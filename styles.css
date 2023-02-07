@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+
+h1 {
+    margin: 50px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, label {
+    color: aqua;
+}
+
+label {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form {
+    display: inline-block;
+}
